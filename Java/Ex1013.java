@@ -10,7 +10,7 @@ public class Exercicio1013 {
         Scanner input = new Scanner (System.in);
         int a = nextInt();
         int b = nextInt();
-        int s = nextInt
+        int s = nextInt();
 
         
     }

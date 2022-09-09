@@ -1,11 +1,11 @@
-package Java;
+import java.io.IOException;
+import java.io.PrintStream;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio1011{
-
-    public static void main(String[] args) {
-
+public class Ex1011 {
+    public static void main(String[] args) throws IOException {
+ 
         Locale.setDefault(Locale.US);
 
         Scanner input = new Scanner (System.in);
@@ -16,6 +16,6 @@ public class Exercicio1011{
 
         System.out.printf("VOLUME = %.3f%n", volume);
         input.close();
-
+ 
     }
 }
