@@ -18,5 +18,7 @@ public class Ex1017 {
         l = d/12.0;
         
         System.out.println(f.format(l));
+        input.close();
+
     }
 }

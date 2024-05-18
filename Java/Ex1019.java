@@ -15,5 +15,6 @@ public class Ex1019 {
         
         System.out.println(hours + ":" + minutes + ":" +
         seconds);
+        input.close();
     }
 }

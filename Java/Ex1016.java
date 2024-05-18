@@ -10,5 +10,6 @@ public class Ex1016 {
         d = input.nextInt();
         t = d*2;
         System.out.println(t + " minutos");
+        input.close();
     }
 }

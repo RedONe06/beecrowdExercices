@@ -30,6 +30,6 @@ public class Ex1018 {
         System.out.println(five + " nota(s) de R$ 5,00");
         System.out.println(two + " nota(s) de R$ 2,00");
         System.out.println(one + " nota(s) de R$ 1,00");
- 
+        input.close();
     }
 }

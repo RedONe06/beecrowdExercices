@@ -6,8 +6,8 @@ public class Ex1110 {
     public static void main(String[] args) throws IOException {
         
         Scanner input = new Scanner(System.in);
-        ArrayList<Integer> list = new ArrayList();
-        ArrayList<Integer> discarted = new ArrayList();
+        ArrayList<Integer> list = new ArrayList<Integer>();
+        ArrayList<Integer> discarted = new ArrayList<Integer>();
         String d = "Discarded cards: ";
 
         int n = input.nextInt();
